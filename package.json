@@ -1,0 +1,33 @@
+{
+  "name": "jobs",
+  "version": "1.0.0",
+  "description": "AI Jobs Helper",
+  "main": "index.js",
+  "watch": {
+    "build": {
+      "patterns": [
+        "client/src/**/*.js",
+        "client/src/**/*.jsx",
+        "server/**/*.js",
+        "server/**/*.jsx"
+      ],
+      "extensions": "js,jsx",
+      "runOnChangeOnly": true
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build",
+    "watch": "npm-watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "npm-watch": "^0.11.0",
+    "openai": "^4.7.1"
+  }
+}
