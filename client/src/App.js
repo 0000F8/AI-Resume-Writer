@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import logo from "./logo.svg";
 import { TextareaAutosize } from '@mui/base/TextareaAutosize';
 import Grid from '@mui/material/Unstable_Grid2';
 import "./App.css";
