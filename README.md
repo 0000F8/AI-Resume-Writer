@@ -1,5 +1,10 @@
-# AI CV Helper 
-This will provide an interface for modifying your CV to fit the description of job 
+# AI Resume Writer (POC)
+
+This proof-of-concept will provide an interface for modifying your CV to fit the description of job using remote API calls to an LLM such as ChatGPT.
+
+# TECH
+
+Node/React/LLMs
 
 ## INSTALL
 
