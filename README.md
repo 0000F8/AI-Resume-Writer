@@ -30,4 +30,7 @@ You'll be presented by a page on http://localhost:1337/ where you can input your
 
 It will return a modified CV and cover letter.
 
+## LICENSE
+
+MIT License
 
